@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE767E70193EE36100616538 /* NSObject+ComparisonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CE767E6F193EE36100616538 /* NSObject+ComparisonMethods.m */; };
+		CEA94C86193E7F3D002626C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94C85193E7F3D002626C5 /* AppDelegate.swift */; };
+		CEA94C88193E7F3D002626C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA94C87193E7F3D002626C5 /* Images.xcassets */; };
+		CEA94C94193E7F3D002626C5 /* Swift_ShorthandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94C93193E7F3D002626C5 /* Swift_ShorthandTests.swift */; };
+		CEA94CA0193E81B1002626C5 /* NSArray+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94C9F193E81B1002626C5 /* NSArray+Convenience.swift */; };
+		CEA94CA4193EA855002626C5 /* NSString+DataConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94CA3193EA855002626C5 /* NSString+DataConversion.swift */; };
+		CEA94CA6193EA8F3002626C5 /* NSString+StringFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94CA5193EA8F3002626C5 /* NSString+StringFunctions.swift */; };
+		CEA94CA8193EAAA0002626C5 /* NSString+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94CA7193EAAA0002626C5 /* NSString+Regex.swift */; };
+		CEA94CAA193EB0D1002626C5 /* NSString+DataDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94CA9193EB0D1002626C5 /* NSString+DataDetector.swift */; };
+		CEA94CAE193EB87C002626C5 /* NSObject+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA94CAD193EB87C002626C5 /* NSObject+JSON.swift */; };
+		CEA94CD5193EC2C8002626C5 /* NSArray+FunctionalMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA94CD0193EC2C8002626C5 /* NSArray+FunctionalMethods.m */; };
+		CEA94CD6193EC2C8002626C5 /* NSDictionary+FunctionalMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA94CD2193EC2C8002626C5 /* NSDictionary+FunctionalMethods.m */; };
+		CEA94CD7193EC2C8002626C5 /* NSSet+FunctionalMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA94CD4193EC2C8002626C5 /* NSSet+FunctionalMethods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA94C8E193E7F3D002626C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA94C78193E7F3D002626C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA94C7F193E7F3D002626C5;
+			remoteInfo = "Swift-Shorthand";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE767E6E193EE36100616538 /* NSObject+ComparisonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ComparisonMethods.h"; sourceTree = "<group>"; };
+		CE767E6F193EE36100616538 /* NSObject+ComparisonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ComparisonMethods.m"; sourceTree = "<group>"; };
+		CEA94C80193E7F3D002626C5 /* Swift-Shorthand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Shorthand.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA94C84193E7F3D002626C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA94C85193E7F3D002626C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA94C87193E7F3D002626C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEA94C8D193E7F3D002626C5 /* Swift-ShorthandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-ShorthandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA94C92193E7F3D002626C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA94C93193E7F3D002626C5 /* Swift_ShorthandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ShorthandTests.swift; sourceTree = "<group>"; };
+		CEA94C9F193E81B1002626C5 /* NSArray+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSArray+Convenience.swift"; path = "Swift-Shorthand/NSArray+Convenience.swift"; sourceTree = "<group>"; };
+		CEA94CA3193EA855002626C5 /* NSString+DataConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSString+DataConversion.swift"; path = "Swift-Shorthand/NSString+DataConversion.swift"; sourceTree = "<group>"; };
+		CEA94CA5193EA8F3002626C5 /* NSString+StringFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSString+StringFunctions.swift"; path = "Swift-Shorthand/NSString+StringFunctions.swift"; sourceTree = "<group>"; };
+		CEA94CA7193EAAA0002626C5 /* NSString+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSString+Regex.swift"; path = "Swift-Shorthand/NSString+Regex.swift"; sourceTree = "<group>"; };
+		CEA94CA9193EB0D1002626C5 /* NSString+DataDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSString+DataDetector.swift"; path = "Swift-Shorthand/NSString+DataDetector.swift"; sourceTree = "<group>"; };
+		CEA94CAD193EB87C002626C5 /* NSObject+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSObject+JSON.swift"; path = "Swift-Shorthand/NSObject+JSON.swift"; sourceTree = "<group>"; };
+		CEA94CB1193EC19C002626C5 /* Swift-Shorthand-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Shorthand-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEA94CCF193EC2C8002626C5 /* NSArray+FunctionalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FunctionalMethods.h"; sourceTree = "<group>"; };
+		CEA94CD0193EC2C8002626C5 /* NSArray+FunctionalMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FunctionalMethods.m"; sourceTree = "<group>"; };
+		CEA94CD1193EC2C8002626C5 /* NSDictionary+FunctionalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FunctionalMethods.h"; sourceTree = "<group>"; };
+		CEA94CD2193EC2C8002626C5 /* NSDictionary+FunctionalMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FunctionalMethods.m"; sourceTree = "<group>"; };
+		CEA94CD3193EC2C8002626C5 /* NSSet+FunctionalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+FunctionalMethods.h"; sourceTree = "<group>"; };
+		CEA94CD4193EC2C8002626C5 /* NSSet+FunctionalMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+FunctionalMethods.m"; sourceTree = "<group>"; };
+		CEB1F604193EC79F00778CD2 /* Objective-Shorthand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-Shorthand.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA94C7D193E7F3D002626C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA94C8A193E7F3D002626C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA94C77193E7F3D002626C5 = {
+			isa = PBXGroup;
+			children = (
+				CEA94C82193E7F3D002626C5 /* Swift-Shorthand */,
+				CEA94C90193E7F3D002626C5 /* Swift-ShorthandTests */,
+				CEA94C81193E7F3D002626C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA94C81193E7F3D002626C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA94C80193E7F3D002626C5 /* Swift-Shorthand.app */,
+				CEA94C8D193E7F3D002626C5 /* Swift-ShorthandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA94C82193E7F3D002626C5 /* Swift-Shorthand */ = {
+			isa = PBXGroup;
+			children = (
+				CEA94CCE193EC2C8002626C5 /* Objective-Shorthand */,
+				CEA94C9F193E81B1002626C5 /* NSArray+Convenience.swift */,
+				CEA94CAD193EB87C002626C5 /* NSObject+JSON.swift */,
+				CEA94CA9193EB0D1002626C5 /* NSString+DataDetector.swift */,
+				CEA94CA7193EAAA0002626C5 /* NSString+Regex.swift */,
+				CEA94CA5193EA8F3002626C5 /* NSString+StringFunctions.swift */,
+				CEA94CA3193EA855002626C5 /* NSString+DataConversion.swift */,
+				CEA94C85193E7F3D002626C5 /* AppDelegate.swift */,
+				CEA94C87193E7F3D002626C5 /* Images.xcassets */,
+				CEA94C83193E7F3D002626C5 /* Supporting Files */,
+				CEA94CB1193EC19C002626C5 /* Swift-Shorthand-Bridging-Header.h */,
+			);
+			path = "Swift-Shorthand";
+			sourceTree = "<group>";
+		};
+		CEA94C83193E7F3D002626C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA94C84193E7F3D002626C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA94C90193E7F3D002626C5 /* Swift-ShorthandTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA94C93193E7F3D002626C5 /* Swift_ShorthandTests.swift */,
+				CEA94C91193E7F3D002626C5 /* Supporting Files */,
+			);
+			path = "Swift-ShorthandTests";
+			sourceTree = "<group>";
+		};
+		CEA94C91193E7F3D002626C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA94C92193E7F3D002626C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA94CCE193EC2C8002626C5 /* Objective-Shorthand */ = {
+			isa = PBXGroup;
+			children = (
+				CEA94CCF193EC2C8002626C5 /* NSArray+FunctionalMethods.h */,
+				CEA94CD0193EC2C8002626C5 /* NSArray+FunctionalMethods.m */,
+				CEA94CD1193EC2C8002626C5 /* NSDictionary+FunctionalMethods.h */,
+				CEA94CD2193EC2C8002626C5 /* NSDictionary+FunctionalMethods.m */,
+				CEA94CD3193EC2C8002626C5 /* NSSet+FunctionalMethods.h */,
+				CEA94CD4193EC2C8002626C5 /* NSSet+FunctionalMethods.m */,
+				CE767E6E193EE36100616538 /* NSObject+ComparisonMethods.h */,
+				CE767E6F193EE36100616538 /* NSObject+ComparisonMethods.m */,
+				CEB1F604193EC79F00778CD2 /* Objective-Shorthand.h */,
+			);
+			name = "Objective-Shorthand";
+			path = "Swift-Shorthand/Objective-Shorthand";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA94C7F193E7F3D002626C5 /* Swift-Shorthand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA94C97193E7F3D002626C5 /* Build configuration list for PBXNativeTarget "Swift-Shorthand" */;
+			buildPhases = (
+				CEA94C7C193E7F3D002626C5 /* Sources */,
+				CEA94C7D193E7F3D002626C5 /* Frameworks */,
+				CEA94C7E193E7F3D002626C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Shorthand";
+			productName = "Swift-Shorthand";
+			productReference = CEA94C80193E7F3D002626C5 /* Swift-Shorthand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA94C8C193E7F3D002626C5 /* Swift-ShorthandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA94C9A193E7F3D002626C5 /* Build configuration list for PBXNativeTarget "Swift-ShorthandTests" */;
+			buildPhases = (
+				CEA94C89193E7F3D002626C5 /* Sources */,
+				CEA94C8A193E7F3D002626C5 /* Frameworks */,
+				CEA94C8B193E7F3D002626C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA94C8F193E7F3D002626C5 /* PBXTargetDependency */,
+			);
+			name = "Swift-ShorthandTests";
+			productName = "Swift-ShorthandTests";
+			productReference = CEA94C8D193E7F3D002626C5 /* Swift-ShorthandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA94C78193E7F3D002626C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Rudd Fawcett";
+				TargetAttributes = {
+					CEA94C7F193E7F3D002626C5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CEA94C8C193E7F3D002626C5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CEA94C7F193E7F3D002626C5;
+					};
+				};
+			};
+			buildConfigurationList = CEA94C7B193E7F3D002626C5 /* Build configuration list for PBXProject "Swift-Shorthand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEA94C77193E7F3D002626C5;
+			productRefGroup = CEA94C81193E7F3D002626C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA94C7F193E7F3D002626C5 /* Swift-Shorthand */,
+				CEA94C8C193E7F3D002626C5 /* Swift-ShorthandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA94C7E193E7F3D002626C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA94C88193E7F3D002626C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA94C8B193E7F3D002626C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA94C7C193E7F3D002626C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA94CA6193EA8F3002626C5 /* NSString+StringFunctions.swift in Sources */,
+				CEA94CA0193E81B1002626C5 /* NSArray+Convenience.swift in Sources */,
+				CEA94C86193E7F3D002626C5 /* AppDelegate.swift in Sources */,
+				CEA94CD6193EC2C8002626C5 /* NSDictionary+FunctionalMethods.m in Sources */,
+				CE767E70193EE36100616538 /* NSObject+ComparisonMethods.m in Sources */,
+				CEA94CAE193EB87C002626C5 /* NSObject+JSON.swift in Sources */,
+				CEA94CA8193EAAA0002626C5 /* NSString+Regex.swift in Sources */,
+				CEA94CD7193EC2C8002626C5 /* NSSet+FunctionalMethods.m in Sources */,
+				CEA94CAA193EB0D1002626C5 /* NSString+DataDetector.swift in Sources */,
+				CEA94CA4193EA855002626C5 /* NSString+DataConversion.swift in Sources */,
+				CEA94CD5193EC2C8002626C5 /* NSArray+FunctionalMethods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA94C89193E7F3D002626C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA94C94193E7F3D002626C5 /* Swift_ShorthandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA94C8F193E7F3D002626C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA94C7F193E7F3D002626C5 /* Swift-Shorthand */;
+			targetProxy = CEA94C8E193E7F3D002626C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEA94C95193E7F3D002626C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA94C96193E7F3D002626C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA94C98193E7F3D002626C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "Swift-Shorthand/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-Shorthand/Swift-Shorthand-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Debug;
+		};
+		CEA94C99193E7F3D002626C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = "Swift-Shorthand/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-Shorthand/Swift-Shorthand-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CEA94C9B193E7F3D002626C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift-Shorthand.app/Swift-Shorthand";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-ShorthandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CEA94C9C193E7F3D002626C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift-Shorthand.app/Swift-Shorthand";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-ShorthandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA94C7B193E7F3D002626C5 /* Build configuration list for PBXProject "Swift-Shorthand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA94C95193E7F3D002626C5 /* Debug */,
+				CEA94C96193E7F3D002626C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA94C97193E7F3D002626C5 /* Build configuration list for PBXNativeTarget "Swift-Shorthand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA94C98193E7F3D002626C5 /* Debug */,
+				CEA94C99193E7F3D002626C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA94C9A193E7F3D002626C5 /* Build configuration list for PBXNativeTarget "Swift-ShorthandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA94C9B193E7F3D002626C5 /* Debug */,
+				CEA94C9C193E7F3D002626C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA94C78193E7F3D002626C5 /* Project object */;
+}
